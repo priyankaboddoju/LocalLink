@@ -1,0 +1,120 @@
+{
+    "1": {
+        "name": "Cafe",
+        "description": "Relax and recharge at nearby cafes offering the best coffee, ambiance, and Wi-Fi for students.",
+        "hours": "8 AM - 10 PM",
+        "address": "123 College St, Campus Town",
+        "contact": "(123) 456-7890",
+        "features": [
+            "Free Wi-Fi",
+            "Outdoor Seating",
+            "Student Discount",
+            "Quiet Environment"
+        ],
+        "nearbyLocations": [
+            {
+                "name": "Java House",
+                "distance": "0.3 miles",
+                "rating": 4.5
+            },
+            {
+                "name": "Cafe Central",
+                "distance": "0.5 miles",
+                "rating": 4.2
+            },
+            {
+                "name": "Brewed Awakenings",
+                "distance": "0.7 miles",
+                "rating": 4.8
+            },
+            {
+                "name": "Grind & Co.",
+                "distance": "1.0 miles",
+                "rating": 4.6
+            },
+            {
+                "name": "The Beanery",
+                "distance": "1.2 miles",
+                "rating": 4.3
+            }
+        ]
+    },
+    "2": {
+        "name": "Gym",
+        "description": "Achieve your fitness goals at well-equipped gyms with student-friendly facilities.",
+        "hours": "6 AM - 11 PM",
+        "address": "456 Fitness Rd, Gym City",
+        "contact": "(987) 654-3210",
+        "features": [
+            "Personal Trainers",
+            "Student Discount",
+            "Open 24/7"
+        ],
+        "nearbyLocations": [
+            {
+                "name": "Fit Hub",
+                "distance": "0.2 miles",
+                "rating": 4.7
+            },
+            {
+                "name": "Power Gym",
+                "distance": "0.4 miles",
+                "rating": 4.3
+            },
+            {
+                "name": "Flex Zone",
+                "distance": "0.6 miles",
+                "rating": 4.5
+            },
+            {
+                "name": "Workout World",
+                "distance": "0.9 miles",
+                "rating": 4.2
+            },
+            {
+                "name": "Peak Fitness",
+                "distance": "1.1 miles",
+                "rating": 4.4
+            }
+        ]
+    },
+    "3": {
+        "name": "Library",
+        "description": "Find study spaces, research resources, and a quiet environment to excel in your academics.",
+        "hours": "7 AM - 12 AM",
+        "address": "789 Knowledge Ln, Libraryville",
+        "contact": "(555) 123-4567",
+        "features": [
+            "24/7 Access",
+            "Study Rooms",
+            "Free Printing"
+        ],
+        "nearbyLocations": [
+            {
+                "name": "Central Library",
+                "distance": "0.3 miles",
+                "rating": 4.9
+            },
+            {
+                "name": "Study Hall West",
+                "distance": "0.5 miles",
+                "rating": 4.6
+            },
+            {
+                "name": "Eastside Library",
+                "distance": "0.8 miles",
+                "rating": 4.4
+            },
+            {
+                "name": "Campus Library",
+                "distance": "1.0 miles",
+                "rating": 4.7
+            },
+            {
+                "name": "West End Library",
+                "distance": "1.3 miles",
+                "rating": 4.5
+            }
+        ]
+    }
+}

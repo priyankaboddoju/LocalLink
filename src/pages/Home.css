@@ -1,0 +1,114 @@
+/* src/styles/Home.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    /* Use a clean, professional font */
+    background: #f4f4f4;
+    /* Light background color for contrast */
+}
+
+.intro {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Gradient background */
+    color: white;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.service-highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(30% - 20px);
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    /* For pseudo-elements */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 5px;
+    background: #ff7e5f;
+    /* Add a stylish underline */
+    transform: translateX(-50%);
+    transition: width 0.2s;
+}
+
+.card:hover::after {
+    width: 70%;
+    /* Underline expands on hover */
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: calc(45% - 20px);
+        /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px);
+        /* Full width on mobile */
+    }
+}
+
+
+.intro {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    /* Cool Blue Gradient */
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 140, 186, 0.2);
+    /* Darker Blue Shadow on Hover */
+}
+
+.card::after {
+    background: #4facfe;
+    /* Underline Color */
+}

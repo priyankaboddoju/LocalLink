@@ -1,0 +1,137 @@
+.service-detail-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.service-detail-container:hover {
+    transform: scale(1.02);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service-name {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service-description {
+    font-size: 1.1rem;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.service-item:hover {
+    background-color: #e0e4e6;
+}
+
+.service-features,
+.nearby-locations {
+    margin-top: 20px;
+}
+
+.service-features h3,
+.nearby-locations h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.service-features ul,
+.nearby-locations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-features li,
+.nearby-locations li {
+    padding: 8px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.service-features li:hover,
+.nearby-locations li:hover {
+    background-color: #e0e4e6;
+}
+
+.location-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-name {
+    font-weight: bold;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,50 @@
+{
+    "cafes": [
+        {
+            "name": "Cafe Mocha",
+            "lat": 37.7749,
+            "lng": -122.4194,
+            "address": "123 Coffee St"
+        },
+        {
+            "name": "Java Lounge",
+            "lat": 37.7758,
+            "lng": -122.4183,
+            "address": "456 Java Ave"
+        },
+        {
+            "name": "Brew House",
+            "lat": 37.7733,
+            "lng": -122.4212,
+            "address": "789 Brew Blvd"
+        }
+    ],
+    "gyms": [
+        {
+            "name": "Fit Gym",
+            "lat": 37.7722,
+            "lng": -122.4200,
+            "address": "101 Fit St"
+        },
+        {
+            "name": "Powerhouse Gym",
+            "lat": 37.7761,
+            "lng": -122.4178,
+            "address": "202 Strong Rd"
+        }
+    ],
+    "libraries": [
+        {
+            "name": "Main Library",
+            "lat": 37.7740,
+            "lng": -122.4199,
+            "address": "Central Ave"
+        },
+        {
+            "name": "City Library",
+            "lat": 37.7755,
+            "lng": -122.4186,
+            "address": "Book St"
+        }
+    ]
+}

@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-highlights {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 1rem 0;
+    color: #0073e6;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.service-list {
+    padding: 20px;
+}
+
+.service-item {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.service-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.service-item p {
+    color: #666;
+}
+
+.service-item:hover {
+    background-color: #f9f9f9;
+}
+
+.service-list {
+    padding: 20px;
+}
+
+.service-item {
+    list-style: none;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.2s ease;
+    text-decoration: none;
+    /* Ensures links inside the card don't have underline */
+    color: inherit;
+    /* Keeps text color consistent */
+}
+
+.service-item:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+}
+
+/* Target the Link inside the service-item to remove default link styles */
+.service-item a {
+    text-decoration: none;
+    /* Remove underline from Link */
+    color: inherit;
+    /* Inherit color from parent, so no color change */
+    display: block;
+}
+
+/* Heading and description styling */
+.service-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.service-item p {
+    color: #666;
+}
+
+/* Style for cards with no underline and hover effect */
+.card {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit color */
+    display: block;
+    /* Make entire card clickable */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    /* Ensure underline does not appear on hover */
+}
+
+/* styles.css */
+.service-card {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* styles.css */
+.service-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.service-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Adding a subtle zoom animation on click */
+.service-card:active {
+    transform: scale(1.02);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #2a5298, #0d47a1);
+    /* Gradient similar to the User Reviews card */
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+nav a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Existing styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    /* Space between nav items */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    transition: transform 0.3s;
+    /* Smooth hover effect */
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none !important;
+    /* Remove underline */
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    display: flex;
+    /* Fill the list item */
+    transition: color 0.3s;
+    /* Color transition */
+}
+
+nav ul li a:hover {
+    color: #bbdefb;
+    /* Lighter blue hover effect */
+}
+
+nav a {
+    padding: 1.5rem;
+}
+
+/* styles.css */
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.map-container {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.service-details {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    z-index: 1000;
+}
+
+.service-details h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.service-details button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-details button:hover {
+    background-color: #0056b3;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+}
+
+.leaflet-routing-alternatives-container {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* src/styles.css */
+.user-reviews-container {
+    padding: 20px;
+}
+
+.reviews-list {
+    margin-bottom: 20px;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.review-form button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #218838;
+}
